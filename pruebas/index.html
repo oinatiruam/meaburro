@@ -6,13 +6,31 @@
 
     <title>Me Aburro Online</title>
 </head>
+<style>
+    .heart-widget {
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    .heart-widget iframe {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 400px;
+        height: 200px;
+        border: none;
+    }
+</style>
 <body>
     <header>
         <h1>Esto es pa probar una cosilla.</h1>
-        <p>eso...</p>
     </header>
     <main>
-       <p>hola</p>
+        <div class="heart-widget">
+            <p>esto es una prueba, si funciona bien, debería salir mi frecuencia cardiaca:</p>
+            <iframe
+                src="https://pulsoid.net/widget/view/a542526b-cc19-4bb6-ba37-a48017a18fdd" allowtransparency="true">
+            </iframe>
+        </div>
     </main>
     <footer>
         <hr>
